@@ -1,3 +1,47 @@
 body {
-	background: #ffff99;
+	background-color: #ffff99;
+	max-width: 1080px;
+}
+
+#pool1 {
+	display: inline-block;
+	max-height: 500px;
+	max-width: 500px;
+}
+
+#pool2 {
+	display: inline-block;
+	max-height: 500px;
+	max-width: 500px;
+}
+
+#top-header {
+	text-align: center;
+	border: 3px solid red;
+	padding: 10px;
+	background-image: url("wov.png");
+	font-family: "Times New Roman";
+}
+
+.pics {
+	display: inline-block;
+}
+
+img {
+  width: 100%;    /* shrinks images to window size */
+}
+
+a:visited { 
+    color: red;
+}
+
+table, th, td {
+	border: 1px solid black;
+	margin: 20px;
+}
+
+@media screen and (max-width: 500px) {
+  body {
+    font-size: .5em;
+  }
 }
